@@ -1,23 +1,36 @@
-[global_config]
-  title_transmit_fg_color = "#df6d6d"
-  title_transmit_bg_color = "#2d3933"
-  title_inactive_fg_color = "#df6d6d"
-  title_inactive_bg_color = "#ffffff"
+! special
+*.foreground:   #df6d6d
+*.background:   #15203c
+*.cursorColor:  #df6d6d
 
-[profiles]
-  [[default]]
-    palette = "#2d3933:#5b6e67:#578272:#e68dfa:#2aac6f:#1ada88:#85c7aa:#00ff8f:#ffffff:#435f67:#1cf4c8:#a4b841:#f61313:#479fb7:#74edc1:#86b3ed"
-    foreground_color = "#df6d6d"
-    background_color = "#15203c"
-    cursor_color = "#df6d6d"
+! black
+*.color0:       #2d3933
+*.color8:       #ffffff
 
-[layouts]
-  [[default]]
-    [[[child1]]]
-      type = Terminal
-      parent = window0
-      profile = default
-    [[[window0]]]
-      type = Window
-      parent = ""
-[plugins]
+! red
+*.color1:       #5b6e67
+*.color9:       #435f67
+
+! green
+*.color2:       #578272
+*.color10:      #1cf4c8
+
+! yellow
+*.color3:       #e68dfa
+*.color11:      #a4b841
+
+! blue
+*.color4:       #2aac6f
+*.color12:      #f61313
+
+! magenta
+*.color5:       #1ada88
+*.color13:      #479fb7
+
+! cyan
+*.color6:       #85c7aa
+*.color14:      #74edc1
+
+! white
+*.color7:       #00ff8f
+*.color15:      #86b3ed
